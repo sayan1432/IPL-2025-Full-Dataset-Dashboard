@@ -7,6 +7,7 @@ st.set_page_config(page_title="WELCOME IPL 2025 DASHBOARD", layout="wide")
 st.title("IPL 2025 Full Dataset Viewer")
 
 # Load data
+df_orange = pd.read_csv("data/orangecap.csv")
 batting_df = pd.read_csv(r"C:\Users\Sayan Sil\OneDrive\Desktop\ipl25\data\orangecap.csv", encoding="ISO-8859-1")
 bowling_df = pd.read_csv(r"C:\Users\Sayan Sil\OneDrive\Desktop\ipl25\data\purplecap.csv", encoding="ISO-8859-1", on_bad_lines='skip')
 points_df = pd.read_csv(r"C:\Users\Sayan Sil\OneDrive\Desktop\ipl25\data\win.csv", encoding="ISO-8859-1", on_bad_lines='skip')
