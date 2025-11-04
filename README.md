@@ -13,7 +13,6 @@ A fully interactive Streamlit dashboard visualizing IPL 2025 data — including 
 - 📊 Points table visualization
 - 📅 Match schedule with filters
 - 💰 Auction insights
-- 🧠 Clean UI with Bengali-friendly layout (coming soon)
 
 ---
 
