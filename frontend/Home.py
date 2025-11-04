@@ -8,12 +8,12 @@ st.title("IPL 2025 Full Dataset Viewer")
 
 # Load data
 df_orange = pd.read_csv("data/orangecap.csv",encoding="ISO-8859-1")
-batting_df = pd.read_csv(r"data\orangecap.csv", encoding="ISO-8859-1")
-bowling_df = pd.read_csv(r"data\purplecap.csv", encoding="ISO-8859-1", on_bad_lines='skip')
-points_df = pd.read_csv(r"data\win.csv", encoding="ISO-8859-1", on_bad_lines='skip')
-auction_df = pd.read_csv(r"data\ipl auction.csv", encoding="ISO-8859-1", on_bad_lines='skip')
-teams_df = pd.read_csv(r"data\teams.csv", encoding="ISO-8859-1", on_bad_lines='skip')
-schedule_df = pd.read_csv(r"data\schedule.csv", encoding="ISO-8859-1", sep=r"\s{2,}", engine='python', on_bad_lines='skip')
+batting_df = pd.read_csv("data/orangecap.csv", encoding="ISO-8859-1")
+bowling_df = pd.read_csv("data/purplecap.csv", encoding="ISO-8859-1", on_bad_lines='skip')
+points_df = pd.read_csv("data/win.csv", encoding="ISO-8859-1", on_bad_lines='skip')
+auction_df = pd.read_csv("data/ipl auction.csv", encoding="ISO-8859-1", on_bad_lines='skip')
+teams_df = pd.read_csv("data/teams.csv", encoding="ISO-8859-1", on_bad_lines='skip')
+schedule_df = pd.read_csv("data/schedule.csv", encoding="ISO-8859-1", sep=r"\s{2,}", engine='python', on_bad_lines='skip')
 
 # Clean column names
 schedule_df.columns = schedule_df.columns.str.strip()
